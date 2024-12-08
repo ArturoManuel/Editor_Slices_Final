@@ -1,0 +1,110 @@
+{
+    "topologia": "anillo-lineal",
+    "nodos": 6,
+    "vms": [
+        {
+            "name": "vm1",
+            "cpu": 1,
+            "ram": "1G",
+            "imagen": "focal-server-cloudimg-amd64.img",
+            "interfaces": [
+                {
+                    "tap_name": "tap-vm1-100",
+                    "vlan": "100"
+                },
+                {
+                    "tap_name": "tap-vm1-1",
+                    "vlan": "1"
+                },
+                {
+                    "tap_name": "tap-vm1-4",
+                    "vlan": "4"
+                }
+            ]
+        },
+        {
+            "name": "vm2",
+            "cpu": 1,
+            "ram": "1G",
+            "imagen": "cirros-0.6.2-x86_64-disk.img",
+            "interfaces": [
+                {
+                    "tap_name": "tap-vm2-1",
+                    "vlan": "1"
+                },
+                {
+                    "tap_name": "tap-vm2-2",
+                    "vlan": "2"
+                }
+            ]
+        },
+        {
+            "name": "vm3",
+            "cpu": 1,
+            "ram": "1G",
+            "imagen": "focal-server-cloudimg-amd64.img",
+            "interfaces": [
+                {
+                    "tap_name": "tap-vm3-100",
+                    "vlan": "100"
+                },
+                {
+                    "tap_name": "tap-vm3-2",
+                    "vlan": "2"
+                },
+                {
+                    "tap_name": "tap-vm3-3",
+                    "vlan": "3"
+                }
+            ]
+        },
+        {
+            "name": "vm4",
+            "cpu": 1,
+            "ram": "1G",
+            "imagen": "focal-server-cloudimg-amd64.img",
+            "interfaces": [
+                {
+                    "tap_name": "tap-vm4-3",
+                    "vlan": "3"
+                },
+                {
+                    "tap_name": "tap-vm4-4",
+                    "vlan": "4"
+                },
+                {
+                    "tap_name": "tap-vm4-6",
+                    "vlan": "6"
+                }
+            ]
+        },
+        {
+            "name": "vm5",
+            "cpu": 1,
+            "ram": "1G",
+            "imagen": "focal-server-cloudimg-amd64.img",
+            "interfaces": [
+                {
+                    "tap_name": "tap-vm5-5",
+                    "vlan": "5"
+                },
+                {
+                    "tap_name": "tap-vm5-6",
+                    "vlan": "6"
+                }
+            ]
+        },
+        {
+            "name": "vm6",
+            "cpu": 1,
+            "ram": "1G",
+            "imagen": "cirros-0.6.2-x86_64-disk.img",
+            "interfaces": [
+                {
+                    "tap_name": "tap-vm6-5",
+                    "vlan": "5"
+                }
+            ]
+        }
+    ]
+}

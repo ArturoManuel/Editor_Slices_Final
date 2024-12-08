@@ -1,0 +1,93 @@
+{
+    "vm1": {
+        "user_id": 1,
+        "interfaces": [
+            {
+                "tap_name": "tap-vm1-100",
+                "vlan": "100"
+            },
+            {
+                "tap_name": "tap-vm1-1",
+                "vlan": "1"
+            },
+            {
+                "tap_name": "tap-vm1-3",
+                "vlan": "3"
+            }
+        ]
+    },
+    "vm2": {
+        "user_id": 1,
+        "interfaces": [
+            {
+                "tap_name": "tap-vm2-100",
+                "vlan": "100"
+            },
+            {
+                "tap_name": "tap-vm2-1",
+                "vlan": "1"
+            },
+            {
+                "tap_name": "tap-vm2-2",
+                "vlan": "2"
+            }
+        ]
+    },
+    "vm3": {
+        "user_id": 1,
+        "interfaces": [
+            {
+                "tap_name": "tap-vm3-100",
+                "vlan": "100"
+            },
+            {
+                "tap_name": "tap-vm3-2",
+                "vlan": "2"
+            },
+            {
+                "tap_name": "tap-vm3-3",
+                "vlan": "3"
+            }
+        ]
+    },
+    "vm4": {
+        "user_id": 6,
+        "interfaces": [
+            {
+                "tap_name": "tap-vm4-3",
+                "vlan": "3"
+            },
+            {
+                "tap_name": "tap-vm4-4",
+                "vlan": "4"
+            }
+        ]
+    },
+    "vm5": {
+        "user_id": 6,
+        "interfaces": [
+            {
+                "tap_name": "tap-vm5-5",
+                "vlan": "5"
+            }
+        ]
+    },
+    "vm6": {
+        "user_id": 6,
+        "interfaces": [
+            {
+                "tap_name": "tap-vm6-5",
+                "vlan": "5"
+            }
+        ]
+    },
+    "": {
+        "user_id": 6,
+        "interfaces": [
+            {
+                "tap_name": "tap--5",
+                "vlan": "5"
+            }
+        ]
+    }
+}

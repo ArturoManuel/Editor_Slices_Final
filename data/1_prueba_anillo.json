@@ -1,0 +1,66 @@
+{
+    "topologia": "anillo",
+    "nodos": 3,
+    "vms": [
+        {
+            "name": "vm1",
+            "cpu": 1,
+            "ram": "1G",
+            "imagen": "cirros-0.6.2-x86_64-disk.img",
+            "interfaces": [
+                {
+                    "tap_name": "tap-vm1-100",
+                    "vlan": "100"
+                },
+                {
+                    "tap_name": "tap-vm1-1",
+                    "vlan": "1"
+                },
+                {
+                    "tap_name": "tap-vm1-3",
+                    "vlan": "3"
+                }
+            ]
+        },
+        {
+            "name": "vm2",
+            "cpu": 1,
+            "ram": "1G",
+            "imagen": "cirros-0.6.2-x86_64-disk.img",
+            "interfaces": [
+                {
+                    "tap_name": "tap-vm2-100",
+                    "vlan": "100"
+                },
+                {
+                    "tap_name": "tap-vm2-1",
+                    "vlan": "1"
+                },
+                {
+                    "tap_name": "tap-vm2-2",
+                    "vlan": "2"
+                }
+            ]
+        },
+        {
+            "name": "vm3",
+            "cpu": 1,
+            "ram": "1G",
+            "imagen": "cirros-0.6.2-x86_64-disk.img",
+            "interfaces": [
+                {
+                    "tap_name": "tap-vm3-100",
+                    "vlan": "100"
+                },
+                {
+                    "tap_name": "tap-vm3-2",
+                    "vlan": "2"
+                },
+                {
+                    "tap_name": "tap-vm3-3",
+                    "vlan": "3"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "anillo_lab_6",
+    "topology": {
+        "links": [
+            {"link_id": "link_1", "source": "instance_1", "target": "instance_2"},
+            {"link_id": "link_2", "source": "instance_2", "target": "instance_3"},
+            {"link_id": "link_3", "source": "instance_3", "target": "instance_4"},
+            {"link_id": "link_4", "source": "instance_4", "target": "instance_1"} 
+        ],
+        "nodes": [
+            {"node_id": "instance_1", "name": "instance_1", "access_protocol": "SSH", "cpu": 1, "image": "b038fed9-5933-4a9d-b65b-e7cb87ef8c58", "memory": 0.5, "security_rules": [22], "storage": 1},
+            {"node_id": "instance_2", "name": "instance_2", "access_protocol": "SSH", "cpu": 1, "image": "b038fed9-5933-4a9d-b65b-e7cb87ef8c58", "memory": 0.5, "security_rules": [22], "storage": 1},
+            {"node_id": "instance_3", "name": "instance_3", "access_protocol": "SSH", "cpu": 1, "image": "b038fed9-5933-4a9d-b65b-e7cb87ef8c58", "memory": 0.5, "security_rules": [22], "storage": 1},
+            {"node_id": "instance_4", "name": "instance_4", "access_protocol": "SSH", "cpu": 1, "image": "b038fed9-5933-4a9d-b65b-e7cb87ef8c58", "memory": 0.5, "security_rules": [22], "storage": 1}
+        ]
+    }
+}
