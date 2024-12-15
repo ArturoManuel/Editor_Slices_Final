@@ -1,0 +1,87 @@
+2024-12-08 09:08:16,503 - fastapi_app - INFO - FastAPI application is starting up
+2024-12-08 09:09:05,994 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/user_plantilla/1
+2024-12-08 09:09:05,995 - fastapi_app - INFO - Response status: 404
+2024-12-08 09:09:14,642 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/user_plantillas/1
+2024-12-08 09:09:14,657 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:10:07,767 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/plantilla/6754e68816e884fe376f4d6f
+2024-12-08 09:10:07,771 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:10:34,611 - fastapi_app - INFO - FastAPI application is shutting down
+2024-12-08 09:19:32,021 - fastapi_app - INFO - FastAPI application is starting up
+2024-12-08 09:20:45,469 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/download-logs
+2024-12-08 09:20:45,472 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:20:46,038 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/download-logs
+2024-12-08 09:20:46,041 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:20:46,634 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/download-logs
+2024-12-08 09:20:46,637 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:20:47,153 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/download-logs
+2024-12-08 09:20:47,155 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:20:47,216 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/download-logs
+2024-12-08 09:20:47,219 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:20:47,513 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/download-logs
+2024-12-08 09:20:47,516 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:20:55,809 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/download-logs
+2024-12-08 09:20:55,812 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:20:55,910 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/download-logs
+2024-12-08 09:20:55,912 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:20:56,008 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/download-logs
+2024-12-08 09:20:56,010 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:20:56,083 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/download-logs
+2024-12-08 09:20:56,085 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:20:56,142 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/download-logs
+2024-12-08 09:20:56,149 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:20:56,200 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/download-logs
+2024-12-08 09:20:56,202 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:23:33,882 - fastapi_app - INFO - FastAPI application is shutting down
+2024-12-08 09:23:34,889 - fastapi_app - INFO - FastAPI application is starting up
+2024-12-08 09:24:42,392 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/download-logs
+2024-12-08 09:24:42,395 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:27:25,585 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/docs/
+2024-12-08 09:27:25,587 - fastapi_app - INFO - Response status: 307
+2024-12-08 09:27:25,644 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/docs
+2024-12-08 09:27:25,645 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:27:26,206 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/openapi.json
+2024-12-08 09:27:26,239 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:37:43,565 - fastapi_app - INFO - FastAPI application is shutting down
+2024-12-08 09:37:44,636 - fastapi_app - INFO - FastAPI application is starting up
+2024-12-08 09:38:07,113 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/docs
+2024-12-08 09:38:07,118 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:38:07,390 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/openapi.json
+2024-12-08 09:38:07,419 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:38:55,546 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/export-plantilla/6755557016e884fe376f4d7a
+2024-12-08 09:38:55,563 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:40:06,997 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/docs
+2024-12-08 09:40:06,998 - fastapi_app - INFO - Response status: 200
+2024-12-08 09:40:07,515 - fastapi_app - INFO - Incoming request: GET http://gateway:8001/openapi.json
+2024-12-08 09:40:07,518 - fastapi_app - INFO - Response status: 200
+2024-12-15 12:39:23,976 - fastapi_app - INFO - FastAPI application is starting up
+2024-12-15 12:39:24,963 - fastapi_app - INFO - FastAPI application is starting up
+2024-12-15 12:39:47,561 - fastapi_app - INFO - Incoming request: POST http://gateway:8001/plantilla
+2024-12-15 12:39:47,579 - fastapi_app - INFO - Response status: 200
+2024-12-15 12:53:15,930 - fastapi_app - INFO - Incoming request: POST http://gateway:8001/plantilla
+2024-12-15 12:53:15,941 - fastapi_app - INFO - Response status: 200
+2024-12-15 12:53:16,025 - fastapi_app - INFO - Incoming request: POST http://gateway:8001/user_plantillas
+2024-12-15 12:53:16,030 - fastapi_app - INFO - Response status: 200
+2024-12-15 13:29:03,547 - fastapi_app - INFO - Incoming request: POST http://gateway:8001/plantilla
+2024-12-15 13:29:03,558 - fastapi_app - INFO - Response status: 200
+2024-12-15 13:29:03,636 - fastapi_app - INFO - Incoming request: POST http://gateway:8001/user_plantillas
+2024-12-15 13:29:03,641 - fastapi_app - INFO - Response status: 200
+2024-12-15 13:34:09,639 - fastapi_app - INFO - Incoming request: POST http://gateway:8001/plantilla
+2024-12-15 13:34:09,648 - fastapi_app - INFO - Response status: 200
+2024-12-15 13:34:09,721 - fastapi_app - INFO - Incoming request: POST http://gateway:8001/user_plantillas
+2024-12-15 13:34:09,726 - fastapi_app - INFO - Response status: 200
+2024-12-15 13:50:08,808 - fastapi_app - INFO - Incoming request: POST http://gateway:8001/plantilla
+2024-12-15 13:50:08,819 - fastapi_app - INFO - Response status: 200
+2024-12-15 13:50:08,911 - fastapi_app - INFO - Incoming request: POST http://gateway:8001/user_plantillas
+2024-12-15 13:50:08,917 - fastapi_app - INFO - Response status: 200
+2024-12-15 13:52:56,719 - fastapi_app - INFO - Incoming request: POST http://gateway:8001/plantilla
+2024-12-15 13:52:56,744 - fastapi_app - INFO - Response status: 200
+2024-12-15 13:52:56,882 - fastapi_app - INFO - Incoming request: POST http://gateway:8001/user_plantillas
+2024-12-15 13:52:56,891 - fastapi_app - INFO - Response status: 200
+2024-12-15 13:54:37,608 - fastapi_app - INFO - Incoming request: POST http://gateway:8001/plantilla
+2024-12-15 13:54:37,685 - fastapi_app - INFO - Response status: 200
+2024-12-15 13:54:37,850 - fastapi_app - INFO - Incoming request: POST http://gateway:8001/user_plantillas
+2024-12-15 13:54:37,855 - fastapi_app - INFO - Response status: 200
+2024-12-15 13:56:23,945 - fastapi_app - INFO - Incoming request: POST http://gateway:8001/plantilla
+2024-12-15 13:56:23,950 - fastapi_app - INFO - Response status: 200
+2024-12-15 13:56:24,063 - fastapi_app - INFO - Incoming request: POST http://gateway:8001/user_plantillas
+2024-12-15 13:56:24,067 - fastapi_app - INFO - Response status: 200
